@@ -57,4 +57,59 @@
 
 @media (min-width: 601px)and (max-width: 900px) {
 
+	main, header, footer {
+		margin-left: 0;
+		padding: 7%;
+	}
+
+	/*Стили для меню*/
+
+	nav {
+		position: static;
+		width: 100%;
+		text-align: center;
+		border-radius: 0 0 15px 15px;
+		padding-bottom: 15px;
+	}
+	nav ul {
+		display: flex;
+		padding: 0;
+		font-size: 27px;
+	}
+	nav li {
+		margin: 0 auto 7px;
+	}
+	
+		/*Стили для секции 3*/
+
+	.people {
+		display: block;
+		margin: 0;
+		width: 100%;
+	}
+	.box {
+		margin: 0 auto;
+		width: 60%;
+		margin-bottom: 50px;
+	}
+
+	/*Стили для секции 4*/
+
+	.packages {
+		display: block;
+	}
+	.packages ul {
+		margin: 0 auto 50px;
+		width: 60%;
+	}
+
+	/*Стили для секции 5*/
+
+	section .button {
+		margin: 0 auto 60px;
+		width: 30%; 
+		margin-left: 250px;
+		padding: 20px 10px;
+		border-radius: 30px;
+	}
 }
